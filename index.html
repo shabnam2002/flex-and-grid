@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+    <style>
+nav ul{
+  display: flex;
+  list-style:none ;
+  height: 40px;
+  background-color: beige;
+  align-items: center;
+}
+nav ul li{
+  margin-right: 15px;
+}
+header{
+  display: flex;
+  max-height:700px;
+}
+header img{
+  width: 100%;
+  height: auto;
+}
+header h3{
+  position: absolute;
+color: white;
+background-color: rgba(164, 163, 163, 0.295);
+font-size: 30px;
+align-self: center;
+margin-right: 20px;
+}
+.container{
+  display: flex;
+  max-width: 1400px;
+  margin: 14px auto;
+
+}
+.container aside{
+  flex: 25%;
+}
+.container main{
+    flex: 75%;
+  display: flex;
+  justify-content: space-around;
+      flex-wrap: wrap;
+
+}
+.container main > div{
+  width: 46%;
+  margin: 5px 5px;
+}
+.img-res{
+    width: 100%;
+  height: auto;
+}
+aside div{
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-top: 5px;
+}
+aside div p{
+  font-size: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(39, 38, 38);
+  margin-bottom: 15px;
+}
+aside div ul li{
+  margin: 5px 3px;
+    font-size:15px;
+
+}
+footer{
+  height: 200px;
+  background-color: rgb(31, 31, 61);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+@media screen and (max-width:900px) {
+  .container{
+    flex-direction: column;
+  }
+  .container main > div{
+    flex: 100%;
+  width: 100%;
+
+}
+  
+}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>خانه</li>
+        <li>دوره های آموزشی</li>
+        <li>تماس با ما</li>
+        <li>درباره ما</li>
+        
+      </ul>
+    </nav>
+    <header>
+          <h3>بهترین دوره آموزشی در ایران</h3>
+      <img src="assets/img/creative-tech-youtube-banner_52683-79347.webp" alt="">
+  
+    </header>
+    <section class="container ">
+<aside>
+<div>
+  <p>جدیدترین مطالب</p>
+  <ul>
+ <li> <a href="">مطلب 1</a></li>
+ <li> <a href="">مطلب 1</a></li>
+  <li> <a href="">مطلب 1</a></li>
+   <li> <a href="">مطلب 1</a></li>
+    </ul>
+</div>
+<div>
+  <p>جدیدترین مطالب</p>
+  <ul>
+ <li> <a href="">مطلب 1</a></li>
+ <li> <a href="">مطلب 1</a></li>
+  <li> <a href="">مطلب 1</a></li>
+   <li> <a href="">مطلب 1</a></li>
+    </ul>
+</div>
+<div>
+  <p>جدیدترین مطالب</p>
+  <ul>
+ <li> <a href="">مطلب 1</a></li>
+ <li> <a href="">مطلب 1</a></li>
+  <li> <a href="">مطلب 1</a></li>
+   <li> <a href="">مطلب 1</a></li>
+    </ul>
+</div>
+</aside>
+<main>
+  <div>
+<img class="img-res" src="assets/img/Post-5-1.svg" alt="">
+</div>
+  <div>
+<img class="img-res" src="assets/img/Post-6.svg" alt="">
+</div>
+  <div>
+<img class="img-res" src="assets/img/Post-۶.svg" alt="">
+</div>
+ <div>
+<img class="img-res" src="assets/img/Post-5-1.svg" alt="">
+</div>
+  <div>
+<img class="img-res" src="assets/img/Post-6.svg" alt="">
+</div>
+  <div>
+<img class="img-res" src="assets/img/Post-۶.svg" alt="">
+</div>
+</main>
+    </section>
+    <footer>
+      <p>تمامی حقوق محفوظ است.</p>
+    </footer>
+  </body>
+</html>
